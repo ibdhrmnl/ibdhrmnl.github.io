@@ -319,7 +319,7 @@ form button:hover {
   transition: .4s;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 476px) {
   .hero{
     width: 476px;
   }
@@ -390,77 +390,4 @@ form button:hover {
     font-size: 50px;
     padding-top: 25px;
   }
-}
-@media screen and (min-width: 476px){
-  .hero{
-    width: 476px;
-  }
-  .portfolio{
-    width: 476px;
-    align-items: center;
-  }
-  .tes{
-    width: 476px;
-  }
-  .title h2{
-    font-size: 50px;
-  }
-  .container {
-    width: 90%;
-  }
-  .main{
-    width: 90%;
-  }
-  footer{
-    width: 476px;
-  }
-  .about{
-    width: 476px;
-    height: 100vh;
-  }
-  .about img{
-    position:relative;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 200px;
-  }
-  .about-text{
-    text-align: center;
-    position: absolute;
-    padding-top: 620px;
-    justify-content: center;
-    align-items: center;
-  }
-  .about-text h2{
-    font-size: 46px;
-  }
-  .about-text h5{
-    font-size: 15px;
-  }
-  .about-text p{
-    font-size: 12px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  form{   
-    width: 90%;
-  }
-  .form-group{
-    margin-top: 20px;
-  }
-  .social2{
-    align-items: center;
-
-  }
-  .social2 a{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  form .title{
-    font-size: 50px;
-    padding-top: 25px;
-  }
-
 }
